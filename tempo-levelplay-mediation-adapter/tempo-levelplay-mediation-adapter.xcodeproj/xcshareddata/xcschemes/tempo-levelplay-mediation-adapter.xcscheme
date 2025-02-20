@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1500"
-   version = "1.3">
+   LastUpgradeVersion = "1620"
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES">
+      buildImplicitDependencies = "YES"
+      buildArchitectures = "Automatic">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -14,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6356D2925E5F6A0B5BE1D7E19EDD0AD0"
-               BuildableName = "libtempo-ios-ironsource-mediation.a"
-               BlueprintName = "tempo-ios-ironsource-mediation"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "0D0793102A25A4E000586808"
+               BuildableName = "tempo-levelplay-mediation-adapter.app"
+               BlueprintName = "tempo-levelplay-mediation-adapter"
+               ReferencedContainer = "container:tempo-levelplay-mediation-adapter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,9 +27,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -40,6 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0D0793102A25A4E000586808"
+            BuildableName = "tempo-levelplay-mediation-adapter.app"
+            BlueprintName = "tempo-levelplay-mediation-adapter"
+            ReferencedContainer = "container:tempo-levelplay-mediation-adapter.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -47,6 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0D0793102A25A4E000586808"
+            BuildableName = "tempo-levelplay-mediation-adapter.app"
+            BlueprintName = "tempo-levelplay-mediation-adapter"
+            ReferencedContainer = "container:tempo-levelplay-mediation-adapter.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

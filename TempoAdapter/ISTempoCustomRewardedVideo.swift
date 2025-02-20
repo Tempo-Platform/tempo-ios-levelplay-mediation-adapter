@@ -5,7 +5,6 @@ import IronSource
 @objc(ISTempoCustomRewardedVideo)
 public class ISTempoCustomRewardedVideo: ISBaseRewardedVideo, TempoAdListener {
 
-    
     var rewarded: TempoAdController? = nil
     var isAdReady: Bool = false
     var delegate: ISRewardedVideoAdDelegate? = nil
