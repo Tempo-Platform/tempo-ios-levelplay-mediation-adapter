@@ -13,7 +13,7 @@
 		0D07931C2A25A4E000586808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D07931A2A25A4E000586808 /* Main.storyboard */; };
 		0D07931E2A25A4E100586808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D07931D2A25A4E100586808 /* Assets.xcassets */; };
 		0D0793212A25A4E100586808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D07931F2A25A4E100586808 /* LaunchScreen.storyboard */; };
-		9D85C8AFA92E349158C95E53 /* libPods-tempo-levelplay-mediation-adapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD20B651DAD0637625863CA7 /* libPods-tempo-levelplay-mediation-adapter.a */; };
+		3561E185BBF1450F9D4B6586 /* libPods-tempo-levelplay-mediation-adapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 498DEC35A5AD5C230136B082 /* libPods-tempo-levelplay-mediation-adapter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		0D0793202A25A4E100586808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D0793222A25A4E100586808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DC6871E2D66D64700900811 /* tempo-levelplay-mediation-adapter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tempo-levelplay-mediation-adapter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		25B6C927C620E41EE752B020 /* Pods-tempo-levelplay-mediation-adapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempo-levelplay-mediation-adapter.release.xcconfig"; path = "Target Support Files/Pods-tempo-levelplay-mediation-adapter/Pods-tempo-levelplay-mediation-adapter.release.xcconfig"; sourceTree = "<group>"; };
-		A6EDF0DD410AB69140541FDB /* Pods-tempo-levelplay-mediation-adapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempo-levelplay-mediation-adapter.debug.xcconfig"; path = "Target Support Files/Pods-tempo-levelplay-mediation-adapter/Pods-tempo-levelplay-mediation-adapter.debug.xcconfig"; sourceTree = "<group>"; };
-		DD20B651DAD0637625863CA7 /* libPods-tempo-levelplay-mediation-adapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tempo-levelplay-mediation-adapter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		105D78A721C001697C7EC478 /* Pods-tempo-levelplay-mediation-adapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempo-levelplay-mediation-adapter.release.xcconfig"; path = "Target Support Files/Pods-tempo-levelplay-mediation-adapter/Pods-tempo-levelplay-mediation-adapter.release.xcconfig"; sourceTree = "<group>"; };
+		431BB96C9786F9B0F9EC8DC3 /* Pods-tempo-levelplay-mediation-adapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempo-levelplay-mediation-adapter.debug.xcconfig"; path = "Target Support Files/Pods-tempo-levelplay-mediation-adapter/Pods-tempo-levelplay-mediation-adapter.debug.xcconfig"; sourceTree = "<group>"; };
+		498DEC35A5AD5C230136B082 /* libPods-tempo-levelplay-mediation-adapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tempo-levelplay-mediation-adapter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D85C8AFA92E349158C95E53 /* libPods-tempo-levelplay-mediation-adapter.a in Frameworks */,
+				3561E185BBF1450F9D4B6586 /* libPods-tempo-levelplay-mediation-adapter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 				0D0793132A25A4E000586808 /* tempo-levelplay-mediation-adapter */,
 				0D0793122A25A4E000586808 /* Products */,
 				C5277068D64121BDF8550F36 /* Pods */,
-				D62179409F8601FF82A0A064 /* Frameworks */,
+				FA7000DF5FC17518B46A5988 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,16 +77,16 @@
 		C5277068D64121BDF8550F36 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A6EDF0DD410AB69140541FDB /* Pods-tempo-levelplay-mediation-adapter.debug.xcconfig */,
-				25B6C927C620E41EE752B020 /* Pods-tempo-levelplay-mediation-adapter.release.xcconfig */,
+				431BB96C9786F9B0F9EC8DC3 /* Pods-tempo-levelplay-mediation-adapter.debug.xcconfig */,
+				105D78A721C001697C7EC478 /* Pods-tempo-levelplay-mediation-adapter.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		D62179409F8601FF82A0A064 /* Frameworks */ = {
+		FA7000DF5FC17518B46A5988 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD20B651DAD0637625863CA7 /* libPods-tempo-levelplay-mediation-adapter.a */,
+				498DEC35A5AD5C230136B082 /* libPods-tempo-levelplay-mediation-adapter.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,11 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D0793252A25A4E100586808 /* Build configuration list for PBXNativeTarget "tempo-levelplay-mediation-adapter" */;
 			buildPhases = (
-				5AF86ACB140C312F83170C73 /* [CP] Check Pods Manifest.lock */,
+				825D68A431DC0174F304CB22 /* [CP] Check Pods Manifest.lock */,
 				0D07930D2A25A4E000586808 /* Sources */,
 				0D07930E2A25A4E000586808 /* Frameworks */,
 				0D07930F2A25A4E000586808 /* Resources */,
-				B9BE250BD19BB28E428BABF9 /* [CP] Copy Pods Resources */,
+				95141C8037C908616E3B52FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,7 +160,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5AF86ACB140C312F83170C73 /* [CP] Check Pods Manifest.lock */ = {
+		825D68A431DC0174F304CB22 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -182,7 +182,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B9BE250BD19BB28E428BABF9 /* [CP] Copy Pods Resources */ = {
+		95141C8037C908616E3B52FB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,7 +350,7 @@
 		};
 		0D0793262A25A4E100586808 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6EDF0DD410AB69140541FDB /* Pods-tempo-levelplay-mediation-adapter.debug.xcconfig */;
+			baseConfigurationReference = 431BB96C9786F9B0F9EC8DC3 /* Pods-tempo-levelplay-mediation-adapter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -366,7 +366,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,7 +382,7 @@
 		};
 		0D0793272A25A4E100586808 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25B6C927C620E41EE752B020 /* Pods-tempo-levelplay-mediation-adapter.release.xcconfig */;
+			baseConfigurationReference = 105D78A721C001697C7EC478 /* Pods-tempo-levelplay-mediation-adapter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -398,7 +398,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -6,7 +6,7 @@
 
 Pod::Spec.new do |spec|
   spec.name          = 'tempo-ios-levelplay-mediation'
-  spec.version       = '1.0.0-rc.1'
+  spec.version       = '1.0.0-rc.2'
   spec.swift_version = '5.6.1'
   spec.author        = { 'Tempo Engineering' => 'development@tempoplatform.com' }
   spec.license       = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   Using this adapter you will be able to integrate Tempo SDK via LevelPlay mediation
                    DESC
 
-  spec.platform     = :ios, '12.0'
+  spec.platform     = :ios, '13.0'
 
   spec.source_files = 'TempoAdapter/*.*'
   spec.resource_bundles = {

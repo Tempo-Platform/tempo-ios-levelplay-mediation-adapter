@@ -1433,7 +1433,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		25CE3A03EEC348163A75694BD86DD455 /* Release */ = {
+		2FDA3EE157835770B59E96B3017BE22E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB1ECE7F08134F881C6D9E51DB26750 /* IronSourceSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IronSourceSDK";
+				IBSC_MODULE = IronSourceSDK;
+				INFOPLIST_FILE = "Target Support Files/IronSourceSDK/ResourceBundle-IronSourcePrivacyInfo-IronSourceSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = IronSourcePrivacyInfo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		34B19DE95A9D30110B9476521C28085E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9037AA4F1126B7AAC3D8C76F6FF5E8FF /* Pods-tempo-levelplay-mediation-adapter.release.xcconfig */;
 			buildSettings = {
@@ -1442,7 +1459,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-tempo-levelplay-mediation-adapter/Pods-tempo-levelplay-mediation-adapter.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1456,32 +1473,93 @@
 			};
 			name = Release;
 		};
-		28343CE24C77B4BC6A8099F6170EFAC8 /* Debug */ = {
+		38A968EE7AEAC49565546172A384F721 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F8C2AE8006AB4BDD8A786B510E75137 /* tempo-ios-levelplay-mediation.debug.xcconfig */;
+			baseConfigurationReference = 4EB1ECE7F08134F881C6D9E51DB26750 /* IronSourceSDK.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/tempo-ios-levelplay-mediation/tempo-ios-levelplay-mediation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MODULEMAP_FILE = "Headers/Public/tempo_ios_levelplay_mediation/tempo-ios-levelplay-mediation.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = tempo_ios_levelplay_mediation;
-				PRODUCT_NAME = "tempo-ios-levelplay-mediation";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.6.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+		62E2A8B20505EB2CF8752A606F11F036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8C2AE8006AB4BDD8A786B510E75137 /* tempo-ios-levelplay-mediation.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/tempo-ios-levelplay-mediation";
+				IBSC_MODULE = tempo_ios_levelplay_mediation;
+				INFOPLIST_FILE = "Target Support Files/tempo-ios-levelplay-mediation/ResourceBundle-TempoAdapter-tempo-ios-levelplay-mediation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = TempoAdapter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		714ECEC9A9687FE8190DD1DAA6DFD967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36D6A708AC362078B91A89BCB9CCD9E /* TempoSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TempoSDK";
+				IBSC_MODULE = TempoSDK;
+				INFOPLIST_FILE = "Target Support Files/TempoSDK/ResourceBundle-TempoSDK-TempoSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = TempoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		79E55D0694E551FAD685381C3785C3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED290BD40297CA6A46BCAC4BF03E3C5D /* IronSourceSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86480664AA6FF92F229219C1ED824671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC03B0CBD64600F9AB888618D7C0A5D5 /* tempo-ios-levelplay-mediation.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/tempo-ios-levelplay-mediation";
+				IBSC_MODULE = tempo_ios_levelplay_mediation;
+				INFOPLIST_FILE = "Target Support Files/tempo-ios-levelplay-mediation/ResourceBundle-TempoAdapter-tempo-ios-levelplay-mediation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = TempoAdapter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1534,7 +1612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1547,50 +1625,7 @@
 			};
 			name = Debug;
 		};
-		4C5BBDBD042EBF8E95E392B8DA379E03 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED290BD40297CA6A46BCAC4BF03E3C5D /* IronSourceSDK.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IronSourceSDK";
-				IBSC_MODULE = IronSourceSDK;
-				INFOPLIST_FILE = "Target Support Files/IronSourceSDK/ResourceBundle-IronSourcePrivacyInfo-IronSourceSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = IronSourcePrivacyInfo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5D0DAFF26C2A493C2A879F461AA3251B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC03B0CBD64600F9AB888618D7C0A5D5 /* tempo-ios-levelplay-mediation.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/tempo-ios-levelplay-mediation/tempo-ios-levelplay-mediation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MODULEMAP_FILE = "Headers/Public/tempo_ios_levelplay_mediation/tempo-ios-levelplay-mediation.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = tempo_ios_levelplay_mediation;
-				PRODUCT_NAME = "tempo-ios-levelplay-mediation";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.6.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1640,7 +1675,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1649,62 +1684,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		714ECEC9A9687FE8190DD1DAA6DFD967 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D36D6A708AC362078B91A89BCB9CCD9E /* TempoSDK.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TempoSDK";
-				IBSC_MODULE = TempoSDK;
-				INFOPLIST_FILE = "Target Support Files/TempoSDK/ResourceBundle-TempoSDK-TempoSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = TempoSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		8E2BB862CC47D46D34165B5268A05588 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F27DD2228F9CCD83F0D9C8864BD47F15 /* Pods-tempo-levelplay-mediation-adapter.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tempo-levelplay-mediation-adapter/Pods-tempo-levelplay-mediation-adapter.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		954FA72611ECAC09786F390D86D6019A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC03B0CBD64600F9AB888618D7C0A5D5 /* tempo-ios-levelplay-mediation.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/tempo-ios-levelplay-mediation";
-				IBSC_MODULE = tempo_ios_levelplay_mediation;
-				INFOPLIST_FILE = "Target Support Files/tempo-ios-levelplay-mediation/ResourceBundle-TempoAdapter-tempo-ios-levelplay-mediation-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = TempoAdapter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1734,20 +1713,25 @@
 			};
 			name = Release;
 		};
-		AFC41DD4E15491EC533CD5AD2F2BB264 /* Debug */ = {
+		AEED43537BA72EDF90A17FFBABFF477F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F8C2AE8006AB4BDD8A786B510E75137 /* tempo-ios-levelplay-mediation.debug.xcconfig */;
+			baseConfigurationReference = F27DD2228F9CCD83F0D9C8864BD47F15 /* Pods-tempo-levelplay-mediation-adapter.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/tempo-ios-levelplay-mediation";
-				IBSC_MODULE = tempo_ios_levelplay_mediation;
-				INFOPLIST_FILE = "Target Support Files/tempo-ios-levelplay-mediation/ResourceBundle-TempoAdapter-tempo-ios-levelplay-mediation-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = TempoAdapter;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tempo-levelplay-mediation-adapter/Pods-tempo-levelplay-mediation-adapter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1776,57 +1760,73 @@
 			};
 			name = Debug;
 		};
-		B7B32B3C83882DD9CB57CC331297E15C /* Debug */ = {
+		EA35A630518E6774D2B9FFE306B18A08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EB1ECE7F08134F881C6D9E51DB26750 /* IronSourceSDK.debug.xcconfig */;
+			baseConfigurationReference = 0F8C2AE8006AB4BDD8A786B510E75137 /* tempo-ios-levelplay-mediation.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/tempo-ios-levelplay-mediation/tempo-ios-levelplay-mediation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Headers/Public/tempo_ios_levelplay_mediation/tempo-ios-levelplay-mediation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = tempo_ios_levelplay_mediation;
+				PRODUCT_NAME = "tempo-ios-levelplay-mediation";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.6.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BDA894DE2E98D04D09166B80636C425F /* Release */ = {
+		EB7F799359EF554BEE85C8D2EE59B446 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED290BD40297CA6A46BCAC4BF03E3C5D /* IronSourceSDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C5CF32FC36BC4CFCE8D55B491DC8022C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EB1ECE7F08134F881C6D9E51DB26750 /* IronSourceSDK.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IronSourceSDK";
 				IBSC_MODULE = IronSourceSDK;
 				INFOPLIST_FILE = "Target Support Files/IronSourceSDK/ResourceBundle-IronSourcePrivacyInfo-IronSourceSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = IronSourcePrivacyInfo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
+		};
+		F6897B9BB0DDD0FAE7D86A57F5B4F658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC03B0CBD64600F9AB888618D7C0A5D5 /* tempo-ios-levelplay-mediation.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/tempo-ios-levelplay-mediation/tempo-ios-levelplay-mediation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Headers/Public/tempo_ios_levelplay_mediation/tempo-ios-levelplay-mediation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = tempo_ios_levelplay_mediation;
+				PRODUCT_NAME = "tempo-ios-levelplay-mediation";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		F83DA118ECEB33494BDE15DCC8EE02EA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1851,8 +1851,8 @@
 		09AC9CE0CD2657EF29D2B1D1658F3276 /* Build configuration list for PBXNativeTarget "IronSourceSDK-IronSourcePrivacyInfo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C5CF32FC36BC4CFCE8D55B491DC8022C /* Debug */,
-				4C5BBDBD042EBF8E95E392B8DA379E03 /* Release */,
+				2FDA3EE157835770B59E96B3017BE22E /* Debug */,
+				EB7F799359EF554BEE85C8D2EE59B446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1860,8 +1860,8 @@
 		105DE3D956DBDC0D90B06D112863AA48 /* Build configuration list for PBXNativeTarget "tempo-ios-levelplay-mediation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28343CE24C77B4BC6A8099F6170EFAC8 /* Debug */,
-				5D0DAFF26C2A493C2A879F461AA3251B /* Release */,
+				EA35A630518E6774D2B9FFE306B18A08 /* Debug */,
+				F6897B9BB0DDD0FAE7D86A57F5B4F658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1878,8 +1878,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
-				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1887,8 +1887,8 @@
 		5B626D7BB173B12B2721104053676CC6 /* Build configuration list for PBXAggregateTarget "IronSourceSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7B32B3C83882DD9CB57CC331297E15C /* Debug */,
-				BDA894DE2E98D04D09166B80636C425F /* Release */,
+				38A968EE7AEAC49565546172A384F721 /* Debug */,
+				79E55D0694E551FAD685381C3785C3D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1896,8 +1896,8 @@
 		5EE1578A6908FFB4BAC376BB06E9609B /* Build configuration list for PBXNativeTarget "Pods-tempo-levelplay-mediation-adapter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E2BB862CC47D46D34165B5268A05588 /* Debug */,
-				25CE3A03EEC348163A75694BD86DD455 /* Release */,
+				AEED43537BA72EDF90A17FFBABFF477F /* Debug */,
+				34B19DE95A9D30110B9476521C28085E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1914,8 +1914,8 @@
 		BE22B2EB9BBD5A776E6ADB644E7AF88C /* Build configuration list for PBXNativeTarget "tempo-ios-levelplay-mediation-TempoAdapter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFC41DD4E15491EC533CD5AD2F2BB264 /* Debug */,
-				954FA72611ECAC09786F390D86D6019A /* Release */,
+				62E2A8B20505EB2CF8752A606F11F036 /* Debug */,
+				86480664AA6FF92F229219C1ED824671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
