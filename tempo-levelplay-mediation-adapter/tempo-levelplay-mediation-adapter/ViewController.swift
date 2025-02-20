@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  tempo-ironsource-mediation-adapter
-//
-//  Created by Stephen Baker on 30/5/2023.
-//
-
 import UIKit
 import IronSource
 import TempoSDK
