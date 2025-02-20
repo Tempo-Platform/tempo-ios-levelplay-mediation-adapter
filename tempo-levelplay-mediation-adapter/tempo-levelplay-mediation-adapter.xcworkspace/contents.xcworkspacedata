@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:tempo-ironsource-mediation-adapter.xcodeproj">
+      location = "group:tempo-levelplay-mediation-adapter.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

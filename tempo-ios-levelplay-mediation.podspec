@@ -6,19 +6,19 @@
 
 Pod::Spec.new do |spec|
   spec.name          = 'tempo-ios-levelplay-mediation'
-  spec.version       = '1.0.0-rc.0'
+  spec.version       = '1.1.0'
   spec.swift_version = '5.6.1'
   spec.author        = { 'Tempo Engineering' => 'development@tempoplatform.com' }
   spec.license       = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   spec.homepage      = 'https://www.tempoplatform.com'
-  spec.readme        = 'https://github.com/Tempo-Platform/tempo-levelplay-mediation-adapter/blob/main/README.md'
-  spec.source        = { :git => 'https://github.com/Tempo-Platform/tempo-levelplay-mediation-adapter.git', :tag => spec.version.to_s }
+  spec.readme        = 'https://github.com/Tempo-Platform/tempo-ios-levelplay-mediation-adapter/blob/main/README.md'
+  spec.source        = { :git => 'https://github.com/Tempo-Platform/tempo-ios-levelplay-mediation-adapter.git', :tag => spec.version.to_s }
   spec.summary       = 'Tempo LevelPlay iOS Mediation Adapter.'
   spec.description   = <<-DESC
   Using this adapter you will be able to integrate Tempo SDK via LevelPlay mediation
                    DESC
 
-  spec.platform     = :ios, '12.0'
+  spec.platform     = :ios, '13.0'
 
   spec.source_files = 'TempoAdapter/*.*'
   spec.resource_bundles = {
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
     }
 
   spec.dependency 'TempoSDK', '1.8.2'
-  spec.dependency 'IronSourceSDK', '~> 8'
+  spec.dependency 'IronSourceSDK', '~> 8.7'
   spec.requires_arc     = true
   spec.frameworks       = 'Foundation', 'UIKit'
   spec.static_framework = true

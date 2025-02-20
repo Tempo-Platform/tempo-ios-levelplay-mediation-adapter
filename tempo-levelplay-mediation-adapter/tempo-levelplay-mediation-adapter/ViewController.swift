@@ -1,44 +1,52 @@
-//
-//  ViewController.swift
-//  tempo-ironsource-mediation-adapter
-//
-//  Created by Stephen Baker on 30/5/2023.
-//
-
 import UIKit
 import IronSource
 import TempoSDK
-import tempo_ios_ironsource_mediation
+import tempo_ios_levelplay_mediation
 import CoreLocation
 
+let prodKey = "1fd0acc6d"
+let devKey = "1fd0a92e5"
+let interstitial_dev = "g4jobam1trpa6w7u"
+let rewarded_dev = "kwunc0khisl2tzo9"
+let interstitial_prod = "2k6obh94cjawofzt"
+let rewarded_prod = "lhnxg1houy7g5ub6"
 
-let prodKey = "1ade2c39d"
-let devKey = "1a470a75d"
+let kAPPKEY = Constants.environment == Constants.Environment.DEV ? devKey: prodKey
+let kAPPID_INT = Constants.environment == Constants.Environment.DEV ? interstitial_dev: interstitial_prod
+let kAPPID_REW = Constants.environment == Constants.Environment.DEV ? rewarded_dev: rewarded_prod
 
-let kAPPKEY = Constants.environment == Constants.Environment.DEV ? devKey: prodKey 
-
-class ViewController: UIViewController, LevelPlayInterstitialDelegate, LevelPlayRewardedVideoManualDelegate, ISInitializationDelegate, ISImpressionDataDelegate {
+class ViewController: UIViewController, LPMInterstitialAdDelegate, LPMRewardedAdDelegate, ISInitializationDelegate, ISImpressionDataDelegate {
     
     var locationManager: CLLocationManager?
-    // Button outlet/actions
+    var interstitialAd: LPMInterstitialAd?
+    var rewardedAd: LPMRewardedAd?
+    
+    /// Button outlet
     @IBOutlet weak var rewardedLoadBtn: UIButton!
     @IBOutlet weak var rewardedShowBtn: UIButton!
     @IBOutlet weak var interstitialLoadBtn: UIButton!
     @IBOutlet weak var interstitialShowBtn: UIButton!
     @IBOutlet weak var versionLabel: UILabel!
+    
+    /// Button actions
     @IBAction func rewardedLoadBtnAction(_ sender: Any) {
-        IronSource.loadRewardedVideo()
+        rewardedAd?.loadAd()
     }
     @IBAction func rewardedShowBtnAction(_ sender: Any) {
-        IronSource.showRewardedVideo(with: self)
+        // Check that ad is ready
+        if ((self.rewardedAd?.isAdReady()) != nil) {
+            self.rewardedAd?.showAd(viewController: self, placementName: "")
+        }
     }
     @IBAction func interstitialLoadBtnAction(_ sender: Any) {
-        IronSource.loadInterstitial()
+        interstitialAd?.loadAd()
     }
     @IBAction func interstitialPlayBtnAction(_ sender: Any) {
-        IronSource.showInterstitial(with: self)
+        if ((self.interstitialAd?.isAdReady()) != nil) {
+            // Show without placement
+            self.interstitialAd?.showAd(viewController: self, placementName: nil)
+        }
     }
-    
     @IBAction func LocationConsent(_ sender: Any) {
         //TempoUtils.requestLocation()
         print("🤷‍♂️ requestWhenInUseAuthorization (button)")
@@ -52,6 +60,10 @@ class ViewController: UIViewController, LevelPlayInterstitialDelegate, LevelPlay
         
         // Initialise ironSource listeners and SDK
         self.setupIronSourceSdk()
+        self.interstitialAd = LPMInterstitialAd(adUnitId: kAPPID_INT)
+        self.interstitialAd?.setDelegate(self)
+        self.rewardedAd = LPMRewardedAd(adUnitId: kAPPID_REW)
+        self.rewardedAd?.setDelegate(self)
         
         // Set up UI Buttons etc
         initUIElements()
@@ -63,21 +75,31 @@ class ViewController: UIViewController, LevelPlayInterstitialDelegate, LevelPlay
     }
     
     func setupIronSourceSdk() {
-        //ISIntegrationHelper.validateIntegration()
         
-        // Set the REWARDED ad listeners
-        IronSource.setLevelPlayRewardedVideoManualDelegate(self)
+        // Create a request builder with app key. Add User ID if available
+        let requestBuilder = LPMInitRequestBuilder(appKey: kAPPKEY)
+            .withUserId("UserId")
         
-        // Set the INTERSTITIAL ad listeners
-        IronSource.setLevelPlayInterstitialDelegate(self)
+        // Build the initial request
+        let initRequest = requestBuilder.build()
         
-        // Init SDK
-        IronSource.initWithAppKey(kAPPKEY, delegate: self)
+        // Initialize LevelPlay with the prepared request
+        TempoUtils.Say(msg: "👀 Initialising...")
+        LevelPlay.initWith(initRequest)
+        { config, error in
+            if let error = error {
+                // There was an error on initialization. Take necessary actions or retry
+                TempoUtils.Say(msg: "❌ Init error: \(error)")
+            } else {
+                // Initialization was successful. You can now load ad or perform other tasks
+                TempoUtils.Say(msg: "⭐️ Init success")
+            }
+        }
     }
     
     /// Initialisation functions
     func initializationDidComplete() {
-        TempoUtils.Say(msg: "initializationDidComplete")
+        TempoUtils.Say(msg: "⭐️ initializationDidComplete")
     }
     
     /// Initialize the UI elements of the activity
@@ -86,43 +108,106 @@ class ViewController: UIViewController, LevelPlayInterstitialDelegate, LevelPlay
         self.versionLabel.text =  String(format: "%@%@", "IronSource SDK: ", IronSource.sdkVersion());
     }
     
-    /// LevelPlayInterstitialDelegate functions
-    func didShow(with adInfo: ISAdInfo!) {
-        TempoUtils.Say(msg: ISTempoUtils.adUnitStringer(adInfo: adInfo));
-    }
-    func didClick(with adInfo: ISAdInfo!) { // NEVER GETS CALLED BY OUR ADAPTER
-        TempoUtils.Say(msg: ISTempoUtils.adUnitStringer(adInfo: adInfo));
+    
+    func didLoadAd(with adInfo: LPMAdInfo) {
+        TempoUtils.Say(msg: ISTempoUtils.adUnitStringerLP(adInfo: adInfo));
     }
     
-    /// LevelPlayRewardedVideoDelegate functions
-    func hasAvailableAd(with adInfo: ISAdInfo!) {
-        TempoUtils.Say(msg: "****** Has Video: \(IronSource.hasRewardedVideo()) | \(ISTempoUtils.adUnitStringer(adInfo: adInfo))")
-    }
-    func hasNoAvailableAd() {
-    }
-    func didReceiveReward(forPlacement placementInfo: ISPlacementInfo!, with adInfo: ISAdInfo!) { // NEVER GETS CALLED BY OUR ADAPTER
-        TempoUtils.Say(msg: "\(placementInfo.placementName ?? "NO_PLACEMENT") | \(ISTempoUtils.adUnitStringer(adInfo: adInfo))")
-    }
-    func didClick(_ placementInfo: ISPlacementInfo!, with adInfo: ISAdInfo!) { // NEVER GETS CALLED BY OUR ADAPTER
-        TempoUtils.Say(msg: "\(placementInfo.placementName ?? "NO_PLACEMENT") | \(ISTempoUtils.adUnitStringer(adInfo: adInfo))");
-    }
-    
-    /// BOTH Reward/Interstitalfunctions
-    func didLoad(with adInfo: ISAdInfo!) {
-        TempoUtils.Say(msg: ISTempoUtils.adUnitStringer(adInfo: adInfo));
-    }
-    func didFailToLoadWithError(_ error: Error!) {
+    func didFailToLoadAd(withAdUnitId adUnitId: String, error: any Error) {
         TempoUtils.Say(msg: String(describing: error.self));
     }
-    func didOpen(with adInfo: ISAdInfo!) {
-        TempoUtils.Say(msg: ISTempoUtils.adUnitStringer(adInfo: adInfo));
+    
+    func didDisplayAd(with adInfo: LPMAdInfo) {
+        TempoUtils.Say(msg: ISTempoUtils.adUnitStringerLP(adInfo: adInfo));
     }
-    func didFailToShowWithError(_ error: Error!, andAdInfo adInfo: ISAdInfo!) { // NEVER GETS CALLED BY OUR ADAPTER
-        TempoUtils.Say(msg: "\(String(describing: error.self)) |  \(ISTempoUtils.adUnitStringer(adInfo: adInfo))");
+    
+    @objc(didLoadWithAdInfo:) func didLoad(with adInfo: ISAdInfo!) {
+        TempoUtils.Say(msg: ISTempoUtils.adUnitStringerIS(adInfo: adInfo));
     }
-    func didClose(with adInfo: ISAdInfo!) {
-        TempoUtils.Say(msg: ISTempoUtils.adUnitStringer(adInfo: adInfo));
+    
+    @objc func didFailToLoadWithError(_ error: (any Error)!) {
+        TempoUtils.Say(msg: "Failed to load: " + String(describing: error.self));
     }
+    
+    func didReceiveReward(forPlacement placementInfo: ISPlacementInfo!, with adInfo: ISAdInfo!) {
+        // NEVER GETS CALLED BY OUR ADAPTER
+        TempoUtils.Say(msg: "\(placementInfo.placementName ?? "NO_PLACEMENT") | \(ISTempoUtils.adUnitStringerIS(adInfo: adInfo))")
+    }
+    
+    @objc func didFailToShowWithError(_ error: (any Error)!, andAdInfo adInfo: ISAdInfo!) {
+        TempoUtils.Say(msg: "\(String(describing: error.self)) |  \(ISTempoUtils.adUnitStringerIS(adInfo: adInfo))");
+    }
+    
+    @objc(didOpenWithAdInfo:) func didOpen(with adInfo: ISAdInfo!) {
+        TempoUtils.Say(msg: ISTempoUtils.adUnitStringerIS(adInfo: adInfo));
+    }
+    
+    func didClick(_ placementInfo: ISPlacementInfo!, with adInfo: ISAdInfo!) { // NEVER GETS CALLED BY OUR ADAPTER
+        TempoUtils.Say(msg: ISTempoUtils.adUnitStringerIS(adInfo: adInfo));
+    }
+    
+    @objc(didCloseWithAdInfo:) private func didClose(with adInfo: ISAdInfo!) {
+        TempoUtils.Say(msg: ISTempoUtils.adUnitStringerIS(adInfo: adInfo));
+    }
+    
+    func didRewardAd(with adInfo: LPMAdInfo, reward: LPMReward) {
+        TempoUtils.Say(msg: ISTempoUtils.adUnitStringerLP(adInfo: adInfo));
+    }
+    
+    
+    
+    
+    
+    
+//    /// LevelPlayInterstitialDelegate functions
+//    func didShow(with adInfo: ISAdInfo!) {
+//        TempoUtils.Say(msg: ISTempoUtils.adUnitStringer(adInfo: adInfo));
+//    }
+//    func didClick(with adInfo: ISAdInfo!) { // NEVER GETS CALLED BY OUR ADAPTER
+//        TempoUtils.Say(msg: ISTempoUtils.adUnitStringer(adInfo: adInfo));
+//    }
+//    
+//    /// LevelPlayRewardedVideoDelegate functions
+//    func hasAvailableAd(with adInfo: ISAdInfo!) {
+//        TempoUtils.Say(msg: "****** Has Video: \(IronSource.hasRewardedVideo()) | \(ISTempoUtils.adUnitStringer(adInfo: adInfo))")
+//    }
+//    func hasNoAvailableAd() {
+//    }
+//    func didReceiveReward(forPlacement placementInfo: ISPlacementInfo!, with adInfo: ISAdInfo!) { // NEVER GETS CALLED BY OUR ADAPTER
+//        TempoUtils.Say(msg: "\(placementInfo.placementName ?? "NO_PLACEMENT") | \(ISTempoUtils.adUnitStringer(adInfo: adInfo))")
+//    }
+//    func didClick(_ placementInfo: ISPlacementInfo!, with adInfo: ISAdInfo!) { // NEVER GETS CALLED BY OUR ADAPTER
+//        TempoUtils.Say(msg: "\(placementInfo.placementName ?? "NO_PLACEMENT") | \(ISTempoUtils.adUnitStringer(adInfo: adInfo))");
+//    }
+//    
+    /// BOTH Reward/Interstitalfunctions
+    // MARK: LPMInterstitialAdDelegate methods
+//    @objc(didLoadAdWithAdInfo:) func didLoadAd(with adInfo: LPMAdInfo) {
+//        TempoUtils.Say(msg: ISTempoUtils.adUnitStringer(adInfo: adInfo));
+//    }
+//    func didFailToLoadWithError(_ error: Error!) {
+//        TempoUtils.Say(msg: String(describing: error.self));
+//    }
+//    func didFailToLoadAd(withAdUnitId adUnitId: String, error: any Error) {
+//        TempoUtils.Say(msg: String(describing: error.self));
+//    }
+    
+    
+    
+    
+
+    
+    
+//
+//    func didOpen(with adInfo: LPMAdInfo!) {
+//        TempoUtils.Say(msg: ISTempoUtils.adUnitStringer(adInfo: adInfo));
+//    }
+//    func didFailToShowWithError(_ error: Error!, andAdInfo adInfo: LPMAdInfo!) { // NEVER GETS CALLED BY OUR ADAPTER
+//        TempoUtils.Say(msg: "\(String(describing: error.self)) |  \(ISTempoUtils.adUnitStringer(adInfo: adInfo))");
+//    }
+//    func didClose(with adInfo: ISAdInfo!) {
+//        TempoUtils.Say(msg: ISTempoUtils.adUnitStringer(adInfo: adInfo));
+//    }
     
     // Impressions functions
     func impressionDataDidSucceed(_ impressionData: ISImpressionData!) {
