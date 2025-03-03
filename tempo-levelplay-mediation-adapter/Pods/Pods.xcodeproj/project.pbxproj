@@ -21,41 +21,34 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		01A01911128CF1CDCCC6F61380B95B16 /* TempoAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904E4BACA0FCC8166B1A6042C8C79AC0 /* TempoAdView.swift */; };
-		113F03653678EDBD8EAAA969146EE0B7 /* TempoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663B02C7FF95F73ADB9F188F498D6ED /* TempoUtils.swift */; };
-		13A8CCC7CC687E601678F0062520E943 /* tempo-ios-levelplay-mediation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 176B876C853110227B6E20035C470DF7 /* tempo-ios-levelplay-mediation-dummy.m */; };
-		283AEC4E1CF62E89A31A0E20BC1658C2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8E51D4535FE333BA3D3BEF236C40FDBB /* PrivacyInfo.xcprivacy */; };
-		2C356A9D6D1B4C1642B2A8B519FBE0DA /* TempoProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4992D25A88FB417A4587C164B5EEDF4 /* TempoProfile.swift */; };
-		3466741202C5C82C7FDEE5AA811515DF /* ISTempoCustomInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7354E3604762DB6BC6DA8835B5273 /* ISTempoCustomInterstitial.swift */; };
-		3749E22CE881A104DA63C4D673CC8CAE /* Pods-tempo-levelplay-mediation-adapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FE90BC0EAFCF41A644D7DB6347FB42 /* Pods-tempo-levelplay-mediation-adapter-dummy.m */; };
-		3807254C4CD201AF635C5A8363CB9BD5 /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F5A53B3F5373E92A12ADDC436B3FD2 /* Metrics.swift */; };
-		3CA480C4DC7986E42FC26759AD2FC46D /* ISTempoCustomRewardedVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B19BDCD47515990E704A20E6F72B67 /* ISTempoCustomRewardedVideo.swift */; };
-		463BAFFE0B13EB5BF440E01487B82003 /* TempoErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244969627378ACBE5DAC83FBDF72A63 /* TempoErrors.swift */; };
-		46C6BB8C20018CE97283B13C8F4F9A61 /* TempoAdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9DC26BD2EC0E775B8B3E0667375A16 /* TempoAdController.swift */; };
-		4B62473BC53DB4DC5A7F1A656B6F2AAE /* TempoDataBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6F3223BDCF8DAC16163C0ED7B16AEA /* TempoDataBackup.swift */; };
-		4CE6BAD5668AAD39193902EC64C89A76 /* tempo-ios-levelplay-mediation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E1F39724116B60BD8ED2C305498F1C7 /* tempo-ios-levelplay-mediation-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		56D0DAB1CCACF88A426FAF75BAECCAD9 /* TempoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB33EB4234FD9A1E6F194AFA6917470 /* TempoSDK-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5744FF866213283C3A1E1B93E8A02D81 /* TempoAdListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A0D639B854DE56F46A0E4132D8199 /* TempoAdListener.swift */; };
-		5CE3774BC2189C2F2ED1A7D6A5FE87F0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF62A9EF55B6D75F65EAA791FB23C894 /* Constants.swift */; };
-		BC34C4A28403F51FF07CEE946FCFA1FA /* TempoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDA8AD06C1B9F74BC1F4777098A11D /* TempoSDK-dummy.m */; };
-		BDAA2546E7D16DEE98EB8DD19D7002A8 /* ISTempoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8AC48BCDBA773B641BAD418F19D9B /* ISTempoUtils.swift */; };
-		BF8E9C9D698A9232A176C0D36E0A859E /* ISTempoCustomAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F15E36CAD2B38FB3ABBCD95946389B /* ISTempoCustomAdapter.swift */; };
+		323E575458793572A98C928038108219 /* tempo-ios-levelplay-mediation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 176B876C853110227B6E20035C470DF7 /* tempo-ios-levelplay-mediation-dummy.m */; };
+		3BC5D396CA4207EEDD17BCDBE8AC0672 /* ISTempoCustomRewardedVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B19BDCD47515990E704A20E6F72B67 /* ISTempoCustomRewardedVideo.swift */; };
+		4D9CCE99A93B3B567FF905D64686BE96 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B1FEC127B1A325B19DABC375A538FD53 /* PrivacyInfo.xcprivacy */; };
+		4F0FF6B3B014DA7ECE76A40349FA2FB4 /* ISTempoCustomInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7354E3604762DB6BC6DA8835B5273 /* ISTempoCustomInterstitial.swift */; };
+		6E35CB51ADA29E4DD6378575454B0631 /* TempoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDA8AD06C1B9F74BC1F4777098A11D /* TempoSDK-dummy.m */; };
+		75A264D86BDEF1218161ED92E689FC16 /* TempoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663B02C7FF95F73ADB9F188F498D6ED /* TempoUtils.swift */; };
+		7E8789DE6113461928E4A3C63FAE5CB7 /* TempoErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244969627378ACBE5DAC83FBDF72A63 /* TempoErrors.swift */; };
+		A77D97CB6AA5C6A43973337BFB5AB485 /* TempoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB33EB4234FD9A1E6F194AFA6917470 /* TempoSDK-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB81BDEDCBC6D912C64C91EDEE122EB6 /* TempoDataBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6F3223BDCF8DAC16163C0ED7B16AEA /* TempoDataBackup.swift */; };
+		AC1A909FB6283E022CB898D513CDE532 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED997F1AA575CB5FA11A39BE5169C3E /* CountryCode.swift */; };
+		C180A1EA16C403B4ED6143EA3B3CBC4C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF62A9EF55B6D75F65EAA791FB23C894 /* Constants.swift */; };
 		C84D461D5AA430D390A9729936028961 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5A20B4B1B4620D4211FD0B7F33006B8D /* PrivacyInfo.xcprivacy */; };
-		CB75038E581FB843F72CC03A79B1A2F6 /* TempoExternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA92A873C340D33424E8EB715C8A91 /* TempoExternal.swift */; };
-		D65B0D2E5CBA136BBB9B327B62411021 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED997F1AA575CB5FA11A39BE5169C3E /* CountryCode.swift */; };
-		F9A7AC6BD227753DDE6987864760E9DE /* Pods-tempo-levelplay-mediation-adapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A796E11E8D6ECC1DFDC1F2316580DAF2 /* Pods-tempo-levelplay-mediation-adapter-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FBDA332E2EEED40D5D40C830F37A93D5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B1FEC127B1A325B19DABC375A538FD53 /* PrivacyInfo.xcprivacy */; };
+		C93DE1B978B6942E7D2CC97D0003B637 /* TempoExternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA92A873C340D33424E8EB715C8A91 /* TempoExternal.swift */; };
+		CE792F9AC07A077B8FCC389A02E7FD39 /* TempoProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4992D25A88FB417A4587C164B5EEDF4 /* TempoProfile.swift */; };
+		D028B4729ECB23FB591450116B34F59C /* TempoAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904E4BACA0FCC8166B1A6042C8C79AC0 /* TempoAdView.swift */; };
+		D6D5F3446BF86E0EA6AAFF95ED59FA29 /* ISTempoCustomAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F15E36CAD2B38FB3ABBCD95946389B /* ISTempoCustomAdapter.swift */; };
+		DCF319E0A08A2C90D20B6083430A36C3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8E51D4535FE333BA3D3BEF236C40FDBB /* PrivacyInfo.xcprivacy */; };
+		ECCABFC4283616FCC4880EF722200705 /* Pods-tempo-levelplay-mediation-adapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A796E11E8D6ECC1DFDC1F2316580DAF2 /* Pods-tempo-levelplay-mediation-adapter-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED4D50F44AFB394B565F7DB63FE5663F /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F5A53B3F5373E92A12ADDC436B3FD2 /* Metrics.swift */; };
+		EF4BA30FD8842C04136D0E0C8BE3B3B6 /* Pods-tempo-levelplay-mediation-adapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FE90BC0EAFCF41A644D7DB6347FB42 /* Pods-tempo-levelplay-mediation-adapter-dummy.m */; };
+		F8CC4E7A7309E738111331C51E6013A9 /* TempoAdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9DC26BD2EC0E775B8B3E0667375A16 /* TempoAdController.swift */; };
+		FC6A040EC72026EA6A09AC0AE1F2ACEB /* TempoAdListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A0D639B854DE56F46A0E4132D8199 /* TempoAdListener.swift */; };
+		FC6A8982CBFB8AA679000DA7D3FDAA81 /* ISTempoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8AC48BCDBA773B641BAD418F19D9B /* ISTempoUtils.swift */; };
+		FE6D6F96C9FD52EBFC1773B23E38ED68 /* tempo-ios-levelplay-mediation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E1F39724116B60BD8ED2C305498F1C7 /* tempo-ios-levelplay-mediation-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14BCFCF341BE55FAD774B432368B1891 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD26A41E4718A690C3828AB9DFDCC5D8;
-			remoteInfo = "TempoSDK-TempoSDK";
-		};
-		15708731C9C820130CC9FFAF07CB1680 /* PBXContainerItemProxy */ = {
+		1AE87A0126AD6B4DB89E8EA3DF30214E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -69,35 +62,42 @@
 			remoteGlobalIDString = AF4066D13B4DC667FB970ABF861B2B47;
 			remoteInfo = "IronSourceSDK-IronSourcePrivacyInfo";
 		};
-		281B8BE798A162EB08BE5FA72C9EFD29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 01C10DBAB11050082CDC9B868EB243F3;
-			remoteInfo = "tempo-ios-levelplay-mediation";
-		};
-		34D3D8081E1D2DC60D42C04D192166FA /* PBXContainerItemProxy */ = {
+		66891A878B0BA35B90CD56A770435461 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3347AC2A5B3F4FF0E147AB0A54D88867;
 			remoteInfo = "tempo-ios-levelplay-mediation-TempoAdapter";
 		};
-		6A7E6632B518576E406AB837B287A2D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 205EFBEF86DA6E7E3D5B9BABED8872EE;
-			remoteInfo = IronSourceSDK;
-		};
-		72DB51DA31A3AD560C2D2DEF8DE86AB9 /* PBXContainerItemProxy */ = {
+		97FC908739616A37A964B17D720BE492 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 452BF17928B1327D885539AD22EC7515;
 			remoteInfo = TempoSDK;
 		};
-		E0FA9A951283E4999CF57782F4E893B3 /* PBXContainerItemProxy */ = {
+		A6CA6D28C247DBEFAF08F3D62E8E3082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD26A41E4718A690C3828AB9DFDCC5D8;
+			remoteInfo = "TempoSDK-TempoSDK";
+		};
+		C4AD04FE8A11C95EE73ACE86EFE8A2CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C10DBAB11050082CDC9B868EB243F3;
+			remoteInfo = "tempo-ios-levelplay-mediation";
+		};
+		DEAF0D70E52ACF8DF08CCB4093D20C9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205EFBEF86DA6E7E3D5B9BABED8872EE;
+			remoteInfo = IronSourceSDK;
+		};
+		F824F200C1BD9A3913570ECD43D35DC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -481,28 +481,35 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5116E7DCDDFD2AD3514A398530A083C6 /* Frameworks */ = {
+		6EE66744770C8555A43F29701A5F2772 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C8D906596FA5EE930ED7048A4071286 /* Frameworks */ = {
+		7B0F4EE79ADB2876058C2554C4EBFECA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB4A02CC7BDC4C7A8969BDA04AC13A72 /* Frameworks */ = {
+		B36A17A328AB730986D363CD65B9ED57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0F1A340A4F17B796BB738330A5E1CD4 /* Frameworks */ = {
+		C1D4F478296585D039D59C666522D157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34E22B3A8EC5B67A00999B4C7A6D8EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -510,13 +517,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DE967A42495CE5A7087D614669BD65EA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F6F16F97606E0350B505850C6D214589 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1041,27 +1041,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		132E3812CDAC14F3C06CC88EEAD7CBDF /* Headers */ = {
+		07C5B88451C7F52DEB83AA7DF9C79E25 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9A7AC6BD227753DDE6987864760E9DE /* Pods-tempo-levelplay-mediation-adapter-umbrella.h in Headers */,
+				FE6D6F96C9FD52EBFC1773B23E38ED68 /* tempo-ios-levelplay-mediation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E9DBBBFDB79E98B0765882A0A27AB56 /* Headers */ = {
+		4F7E356FD5B6B0AB9AB61E18B9044187 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CE6BAD5668AAD39193902EC64C89A76 /* tempo-ios-levelplay-mediation-umbrella.h in Headers */,
+				A77D97CB6AA5C6A43973337BFB5AB485 /* TempoSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB6C6DD98BF0B942537E6B4567AD9AF9 /* Headers */ = {
+		7F2BD00113AA26E21DE4CBC566CF82EA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56D0DAB1CCACF88A426FAF75BAECCAD9 /* TempoSDK-umbrella.h in Headers */,
+				ECCABFC4283616FCC4880EF722200705 /* Pods-tempo-levelplay-mediation-adapter-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1070,20 +1070,20 @@
 /* Begin PBXNativeTarget section */
 		01C10DBAB11050082CDC9B868EB243F3 /* tempo-ios-levelplay-mediation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 105DE3D956DBDC0D90B06D112863AA48 /* Build configuration list for PBXNativeTarget "tempo-ios-levelplay-mediation" */;
+			buildConfigurationList = 3505078CA20D6C8DA431DF77EE11D9FF /* Build configuration list for PBXNativeTarget "tempo-ios-levelplay-mediation" */;
 			buildPhases = (
-				9E9DBBBFDB79E98B0765882A0A27AB56 /* Headers */,
-				362903ABF35B21211442A3687F321302 /* Sources */,
-				D0F1A340A4F17B796BB738330A5E1CD4 /* Frameworks */,
-				7DE6C0D0FAEF1F1814F64105E3E96B7A /* Copy generated compatibility header */,
-				02D3A6FC97586CC6803FDD9F70448519 /* [CP-User] Hello  */,
+				07C5B88451C7F52DEB83AA7DF9C79E25 /* Headers */,
+				C284F25FB07A39D41782F4F7899BD7D6 /* Sources */,
+				C34E22B3A8EC5B67A00999B4C7A6D8EC /* Frameworks */,
+				DB0B4A4E55A9491E54BEB00DF863E95D /* Copy generated compatibility header */,
+				DE7F93C375BB18B15882C0C5B22AF067 /* [CP-User] Hello  */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B24D1001D1C0E174A2BD54E40B9A892E /* PBXTargetDependency */,
-				A33EE1B7E5B4082938549863A296C490 /* PBXTargetDependency */,
-				8718E931A7A5EADB784C78541E411F9B /* PBXTargetDependency */,
+				ECEABBDCA92A9FE9BA04B19B8B069895 /* PBXTargetDependency */,
+				3F4B05B92820450300FEFD27C862D698 /* PBXTargetDependency */,
+				CBD05AAFB4D548F59D6B0F59BA551C5D /* PBXTargetDependency */,
 			);
 			name = "tempo-ios-levelplay-mediation";
 			productName = "tempo-ios-levelplay-mediation";
@@ -1092,11 +1092,11 @@
 		};
 		3347AC2A5B3F4FF0E147AB0A54D88867 /* tempo-ios-levelplay-mediation-TempoAdapter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE22B2EB9BBD5A776E6ADB644E7AF88C /* Build configuration list for PBXNativeTarget "tempo-ios-levelplay-mediation-TempoAdapter" */;
+			buildConfigurationList = 1B109EE134E9B73A3F1358A5C4A92A22 /* Build configuration list for PBXNativeTarget "tempo-ios-levelplay-mediation-TempoAdapter" */;
 			buildPhases = (
-				D2732B59019E550C651D02CD48EB7DDE /* Sources */,
-				BB4A02CC7BDC4C7A8969BDA04AC13A72 /* Frameworks */,
-				3965FE7E7AD980898A67704E17A5AD84 /* Resources */,
+				638A18D2BF2624B170BAB27BFABF4C08 /* Sources */,
+				B36A17A328AB730986D363CD65B9ED57 /* Frameworks */,
+				AED3E0262893F217E799173CB1AE114C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1109,17 +1109,17 @@
 		};
 		452BF17928B1327D885539AD22EC7515 /* TempoSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B25BC28A3E2C09BD97D5C3EEA5D828D6 /* Build configuration list for PBXNativeTarget "TempoSDK" */;
+			buildConfigurationList = A7242014F59074FACF77EACADAE26B0F /* Build configuration list for PBXNativeTarget "TempoSDK" */;
 			buildPhases = (
-				BB6C6DD98BF0B942537E6B4567AD9AF9 /* Headers */,
-				8E2C2B72A3AE9C22FE95D7080D6B4629 /* Sources */,
-				8C8D906596FA5EE930ED7048A4071286 /* Frameworks */,
-				588EBC99AB8804E85CDDEE35D712A51E /* Copy generated compatibility header */,
+				4F7E356FD5B6B0AB9AB61E18B9044187 /* Headers */,
+				96A12D6849A50F0980BD0BD4778DFDA1 /* Sources */,
+				6EE66744770C8555A43F29701A5F2772 /* Frameworks */,
+				F2C61C6291CEE3157C76D9A1E9001A40 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F097189779AF20728E7B06ADFFF65869 /* PBXTargetDependency */,
+				5CA49D3D898F2CE2C43160B5F1FFABCA /* PBXTargetDependency */,
 			);
 			name = TempoSDK;
 			productName = TempoSDK;
@@ -1128,18 +1128,18 @@
 		};
 		7990B5C823F7125FFA989E049158455F /* Pods-tempo-levelplay-mediation-adapter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EE1578A6908FFB4BAC376BB06E9609B /* Build configuration list for PBXNativeTarget "Pods-tempo-levelplay-mediation-adapter" */;
+			buildConfigurationList = 5E30DE910CF79894A0EFCB6F79AA7550 /* Build configuration list for PBXNativeTarget "Pods-tempo-levelplay-mediation-adapter" */;
 			buildPhases = (
-				132E3812CDAC14F3C06CC88EEAD7CBDF /* Headers */,
-				54F7A5F2CE39FFBFAE6707691CC828DA /* Sources */,
-				F6F16F97606E0350B505850C6D214589 /* Frameworks */,
+				7F2BD00113AA26E21DE4CBC566CF82EA /* Headers */,
+				B9B74E9BAEDD9B6C8DFF32FD776AA21E /* Sources */,
+				C1D4F478296585D039D59C666522D157 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8789E962666979C5496B0143441A6585 /* PBXTargetDependency */,
-				17B364D69EFE8BB67BB5A11FAFA75EB6 /* PBXTargetDependency */,
-				6CA2121224622687A54289142CCD6B68 /* PBXTargetDependency */,
+				D9C27233EE3D3DC2AA75E6E6300EE5A5 /* PBXTargetDependency */,
+				0256DB38AE4107C3F9E1614CF26E8898 /* PBXTargetDependency */,
+				E6638F3581274B511C3BA05C0C69CDEC /* PBXTargetDependency */,
 			);
 			name = "Pods-tempo-levelplay-mediation-adapter";
 			productName = "Pods-tempo-levelplay-mediation-adapter";
@@ -1148,11 +1148,11 @@
 		};
 		AD26A41E4718A690C3828AB9DFDCC5D8 /* TempoSDK-TempoSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4262B27C363B2C208DC3D219B889284B /* Build configuration list for PBXNativeTarget "TempoSDK-TempoSDK" */;
+			buildConfigurationList = 0BD07701BDBAE240A358CEC9ED11384E /* Build configuration list for PBXNativeTarget "TempoSDK-TempoSDK" */;
 			buildPhases = (
-				0CACEB8C3F4DE0A938E25F0C78037268 /* Sources */,
-				5116E7DCDDFD2AD3514A398530A083C6 /* Frameworks */,
-				50E5CA7C7CF54AEFADD9689DA9C08D25 /* Resources */,
+				EB833C66EF143A9F981D8A67F40195EB /* Sources */,
+				7B0F4EE79ADB2876058C2554C4EBFECA /* Frameworks */,
+				429BDE6D67D8342550BF9E8848C7801C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1186,8 +1186,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -1198,6 +1198,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = CEE1BA25AFAE40E4ED659BD088609F82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1214,19 +1216,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3965FE7E7AD980898A67704E17A5AD84 /* Resources */ = {
+		429BDE6D67D8342550BF9E8848C7801C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBDA332E2EEED40D5D40C830F37A93D5 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50E5CA7C7CF54AEFADD9689DA9C08D25 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				283AEC4E1CF62E89A31A0E20BC1658C2 /* PrivacyInfo.xcprivacy in Resources */,
+				DCF319E0A08A2C90D20B6083430A36C3 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1238,44 +1232,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AED3E0262893F217E799173CB1AE114C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9CCE99A93B3B567FF905D64686BE96 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		02D3A6FC97586CC6803FDD9F70448519 /* [CP-User] Hello  */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "[CP-User] Hello ";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "echo \"Adding Custom Module Header\" && touch Headers/tempo_ios_levelplay_mediation.h && echo \"#import <IronSource/IronSource.h>\" >> Headers/tempo_ios_levelplay_mediation.h";
-		};
-		588EBC99AB8804E85CDDEE35D712A51E /* Copy generated compatibility header */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/TempoSDK/TempoSDK.modulemap",
-				"${PODS_ROOT}/Headers/Public/TempoSDK/TempoSDK-umbrella.h",
-			);
-			name = "Copy generated compatibility header";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/TempoSDK-umbrella.h",
-				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/TempoSDK/TempoSDK.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/TempoSDK/TempoSDK-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-		};
-		7DE6C0D0FAEF1F1814F64105E3E96B7A /* Copy generated compatibility header */ = {
+		DB0B4A4E55A9491E54BEB00DF863E95D /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1298,6 +1266,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/tempo_ios_levelplay_mediation/tempo-ios-levelplay-mediation.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/tempo_ios_levelplay_mediation/tempo-ios-levelplay-mediation-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		DE7F93C375BB18B15882C0C5B22AF067 /* [CP-User] Hello  */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Hello ";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Adding Custom Module Header\" && touch Headers/tempo_ios_levelplay_mediation.h && echo \"#import <IronSource/IronSource.h>\" >> Headers/tempo_ios_levelplay_mediation.h";
+		};
+		F2C61C6291CEE3157C76D9A1E9001A40 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/TempoSDK/TempoSDK.modulemap",
+				"${PODS_ROOT}/Headers/Public/TempoSDK/TempoSDK-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/TempoSDK-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/TempoSDK/TempoSDK.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/TempoSDK/TempoSDK-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
 		F5A86915C1FB9E1C192ACD1D15D8FE7A /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1326,53 +1328,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0CACEB8C3F4DE0A938E25F0C78037268 /* Sources */ = {
+		638A18D2BF2624B170BAB27BFABF4C08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		362903ABF35B21211442A3687F321302 /* Sources */ = {
+		96A12D6849A50F0980BD0BD4778DFDA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8E9C9D698A9232A176C0D36E0A859E /* ISTempoCustomAdapter.swift in Sources */,
-				3466741202C5C82C7FDEE5AA811515DF /* ISTempoCustomInterstitial.swift in Sources */,
-				3CA480C4DC7986E42FC26759AD2FC46D /* ISTempoCustomRewardedVideo.swift in Sources */,
-				BDAA2546E7D16DEE98EB8DD19D7002A8 /* ISTempoUtils.swift in Sources */,
-				13A8CCC7CC687E601678F0062520E943 /* tempo-ios-levelplay-mediation-dummy.m in Sources */,
+				C180A1EA16C403B4ED6143EA3B3CBC4C /* Constants.swift in Sources */,
+				AC1A909FB6283E022CB898D513CDE532 /* CountryCode.swift in Sources */,
+				ED4D50F44AFB394B565F7DB63FE5663F /* Metrics.swift in Sources */,
+				F8CC4E7A7309E738111331C51E6013A9 /* TempoAdController.swift in Sources */,
+				FC6A040EC72026EA6A09AC0AE1F2ACEB /* TempoAdListener.swift in Sources */,
+				D028B4729ECB23FB591450116B34F59C /* TempoAdView.swift in Sources */,
+				AB81BDEDCBC6D912C64C91EDEE122EB6 /* TempoDataBackup.swift in Sources */,
+				7E8789DE6113461928E4A3C63FAE5CB7 /* TempoErrors.swift in Sources */,
+				C93DE1B978B6942E7D2CC97D0003B637 /* TempoExternal.swift in Sources */,
+				CE792F9AC07A077B8FCC389A02E7FD39 /* TempoProfile.swift in Sources */,
+				6E35CB51ADA29E4DD6378575454B0631 /* TempoSDK-dummy.m in Sources */,
+				75A264D86BDEF1218161ED92E689FC16 /* TempoUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54F7A5F2CE39FFBFAE6707691CC828DA /* Sources */ = {
+		B9B74E9BAEDD9B6C8DFF32FD776AA21E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3749E22CE881A104DA63C4D673CC8CAE /* Pods-tempo-levelplay-mediation-adapter-dummy.m in Sources */,
+				EF4BA30FD8842C04136D0E0C8BE3B3B6 /* Pods-tempo-levelplay-mediation-adapter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E2C2B72A3AE9C22FE95D7080D6B4629 /* Sources */ = {
+		C284F25FB07A39D41782F4F7899BD7D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CE3774BC2189C2F2ED1A7D6A5FE87F0 /* Constants.swift in Sources */,
-				D65B0D2E5CBA136BBB9B327B62411021 /* CountryCode.swift in Sources */,
-				3807254C4CD201AF635C5A8363CB9BD5 /* Metrics.swift in Sources */,
-				46C6BB8C20018CE97283B13C8F4F9A61 /* TempoAdController.swift in Sources */,
-				5744FF866213283C3A1E1B93E8A02D81 /* TempoAdListener.swift in Sources */,
-				01A01911128CF1CDCCC6F61380B95B16 /* TempoAdView.swift in Sources */,
-				4B62473BC53DB4DC5A7F1A656B6F2AAE /* TempoDataBackup.swift in Sources */,
-				463BAFFE0B13EB5BF440E01487B82003 /* TempoErrors.swift in Sources */,
-				CB75038E581FB843F72CC03A79B1A2F6 /* TempoExternal.swift in Sources */,
-				2C356A9D6D1B4C1642B2A8B519FBE0DA /* TempoProfile.swift in Sources */,
-				BC34C4A28403F51FF07CEE946FCFA1FA /* TempoSDK-dummy.m in Sources */,
-				113F03653678EDBD8EAAA969146EE0B7 /* TempoUtils.swift in Sources */,
+				D6D5F3446BF86E0EA6AAFF95ED59FA29 /* ISTempoCustomAdapter.swift in Sources */,
+				4F0FF6B3B014DA7ECE76A40349FA2FB4 /* ISTempoCustomInterstitial.swift in Sources */,
+				3BC5D396CA4207EEDD17BCDBE8AC0672 /* ISTempoCustomRewardedVideo.swift in Sources */,
+				FC6A8982CBFB8AA679000DA7D3FDAA81 /* ISTempoUtils.swift in Sources */,
+				323E575458793572A98C928038108219 /* tempo-ios-levelplay-mediation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2732B59019E550C651D02CD48EB7DDE /* Sources */ = {
+		EB833C66EF143A9F981D8A67F40195EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1382,11 +1384,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		17B364D69EFE8BB67BB5A11FAFA75EB6 /* PBXTargetDependency */ = {
+		0256DB38AE4107C3F9E1614CF26E8898 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TempoSDK;
 			target = 452BF17928B1327D885539AD22EC7515 /* TempoSDK */;
-			targetProxy = E0FA9A951283E4999CF57782F4E893B3 /* PBXContainerItemProxy */;
+			targetProxy = F824F200C1BD9A3913570ECD43D35DC0 /* PBXContainerItemProxy */;
 		};
 		3150D67C07515094240355A8267040C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1394,45 +1396,134 @@
 			target = AF4066D13B4DC667FB970ABF861B2B47 /* IronSourceSDK-IronSourcePrivacyInfo */;
 			targetProxy = 1DE0C9337A16C400AC5AC187DC12B748 /* PBXContainerItemProxy */;
 		};
-		6CA2121224622687A54289142CCD6B68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "tempo-ios-levelplay-mediation";
-			target = 01C10DBAB11050082CDC9B868EB243F3 /* tempo-ios-levelplay-mediation */;
-			targetProxy = 281B8BE798A162EB08BE5FA72C9EFD29 /* PBXContainerItemProxy */;
-		};
-		8718E931A7A5EADB784C78541E411F9B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "tempo-ios-levelplay-mediation-TempoAdapter";
-			target = 3347AC2A5B3F4FF0E147AB0A54D88867 /* tempo-ios-levelplay-mediation-TempoAdapter */;
-			targetProxy = 34D3D8081E1D2DC60D42C04D192166FA /* PBXContainerItemProxy */;
-		};
-		8789E962666979C5496B0143441A6585 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IronSourceSDK;
-			target = 205EFBEF86DA6E7E3D5B9BABED8872EE /* IronSourceSDK */;
-			targetProxy = 15708731C9C820130CC9FFAF07CB1680 /* PBXContainerItemProxy */;
-		};
-		A33EE1B7E5B4082938549863A296C490 /* PBXTargetDependency */ = {
+		3F4B05B92820450300FEFD27C862D698 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TempoSDK;
 			target = 452BF17928B1327D885539AD22EC7515 /* TempoSDK */;
-			targetProxy = 72DB51DA31A3AD560C2D2DEF8DE86AB9 /* PBXContainerItemProxy */;
+			targetProxy = 97FC908739616A37A964B17D720BE492 /* PBXContainerItemProxy */;
 		};
-		B24D1001D1C0E174A2BD54E40B9A892E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IronSourceSDK;
-			target = 205EFBEF86DA6E7E3D5B9BABED8872EE /* IronSourceSDK */;
-			targetProxy = 6A7E6632B518576E406AB837B287A2D7 /* PBXContainerItemProxy */;
-		};
-		F097189779AF20728E7B06ADFFF65869 /* PBXTargetDependency */ = {
+		5CA49D3D898F2CE2C43160B5F1FFABCA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TempoSDK-TempoSDK";
 			target = AD26A41E4718A690C3828AB9DFDCC5D8 /* TempoSDK-TempoSDK */;
-			targetProxy = 14BCFCF341BE55FAD774B432368B1891 /* PBXContainerItemProxy */;
+			targetProxy = A6CA6D28C247DBEFAF08F3D62E8E3082 /* PBXContainerItemProxy */;
+		};
+		CBD05AAFB4D548F59D6B0F59BA551C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "tempo-ios-levelplay-mediation-TempoAdapter";
+			target = 3347AC2A5B3F4FF0E147AB0A54D88867 /* tempo-ios-levelplay-mediation-TempoAdapter */;
+			targetProxy = 66891A878B0BA35B90CD56A770435461 /* PBXContainerItemProxy */;
+		};
+		D9C27233EE3D3DC2AA75E6E6300EE5A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IronSourceSDK;
+			target = 205EFBEF86DA6E7E3D5B9BABED8872EE /* IronSourceSDK */;
+			targetProxy = 1AE87A0126AD6B4DB89E8EA3DF30214E /* PBXContainerItemProxy */;
+		};
+		E6638F3581274B511C3BA05C0C69CDEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "tempo-ios-levelplay-mediation";
+			target = 01C10DBAB11050082CDC9B868EB243F3 /* tempo-ios-levelplay-mediation */;
+			targetProxy = C4AD04FE8A11C95EE73ACE86EFE8A2CB /* PBXContainerItemProxy */;
+		};
+		ECEABBDCA92A9FE9BA04B19B8B069895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IronSourceSDK;
+			target = 205EFBEF86DA6E7E3D5B9BABED8872EE /* IronSourceSDK */;
+			targetProxy = DEAF0D70E52ACF8DF08CCB4093D20C9C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		065DC5CC3AB2317E6766F3F81FE26FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB1ECE7F08134F881C6D9E51DB26750 /* IronSourceSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08D5AF8D56D6BDD7F74E2C037157CA7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C67064590FF9ADFADF2CBFEB35132D /* TempoSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TempoSDK";
+				IBSC_MODULE = TempoSDK;
+				INFOPLIST_FILE = "Target Support Files/TempoSDK/ResourceBundle-TempoSDK-TempoSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = TempoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0BBAF50555EBAC1DE2469C12511C0DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9037AA4F1126B7AAC3D8C76F6FF5E8FF /* Pods-tempo-levelplay-mediation-adapter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tempo-levelplay-mediation-adapter/Pods-tempo-levelplay-mediation-adapter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26B60961CCC27703C856FBFADBE8BFB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8C2AE8006AB4BDD8A786B510E75137 /* tempo-ios-levelplay-mediation.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/tempo-ios-levelplay-mediation/tempo-ios-levelplay-mediation-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Headers/Public/tempo_ios_levelplay_mediation/tempo-ios-levelplay-mediation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = tempo_ios_levelplay_mediation;
+				PRODUCT_NAME = "tempo-ios-levelplay-mediation";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		2FDA3EE157835770B59E96B3017BE22E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4EB1ECE7F08134F881C6D9E51DB26750 /* IronSourceSDK.debug.xcconfig */;
@@ -1450,99 +1541,37 @@
 			};
 			name = Debug;
 		};
-		34B19DE95A9D30110B9476521C28085E /* Release */ = {
+		32FF72F0F7D3DC10F7C05DE20D743B08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9037AA4F1126B7AAC3D8C76F6FF5E8FF /* Pods-tempo-levelplay-mediation-adapter.release.xcconfig */;
+			baseConfigurationReference = FC03B0CBD64600F9AB888618D7C0A5D5 /* tempo-ios-levelplay-mediation.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/tempo-ios-levelplay-mediation/tempo-ios-levelplay-mediation-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tempo-levelplay-mediation-adapter/Pods-tempo-levelplay-mediation-adapter.modulemap";
+				MODULEMAP_FILE = "Headers/Public/tempo_ios_levelplay_mediation/tempo-ios-levelplay-mediation.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = tempo_ios_levelplay_mediation;
+				PRODUCT_NAME = "tempo-ios-levelplay-mediation";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.6.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		38A968EE7AEAC49565546172A384F721 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EB1ECE7F08134F881C6D9E51DB26750 /* IronSourceSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		62E2A8B20505EB2CF8752A606F11F036 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F8C2AE8006AB4BDD8A786B510E75137 /* tempo-ios-levelplay-mediation.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/tempo-ios-levelplay-mediation";
-				IBSC_MODULE = tempo_ios_levelplay_mediation;
-				INFOPLIST_FILE = "Target Support Files/tempo-ios-levelplay-mediation/ResourceBundle-TempoAdapter-tempo-ios-levelplay-mediation-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_NAME = TempoAdapter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		714ECEC9A9687FE8190DD1DAA6DFD967 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2C67064590FF9ADFADF2CBFEB35132D /* TempoSDK.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TempoSDK";
-				IBSC_MODULE = TempoSDK;
-				INFOPLIST_FILE = "Target Support Files/TempoSDK/ResourceBundle-TempoSDK-TempoSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = TempoSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		79E55D0694E551FAD685381C3785C3D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED290BD40297CA6A46BCAC4BF03E3C5D /* IronSourceSDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		86480664AA6FF92F229219C1ED824671 /* Release */ = {
+		364BF5BB1F19697ADD86C0033E6910D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC03B0CBD64600F9AB888618D7C0A5D5 /* tempo-ios-levelplay-mediation.release.xcconfig */;
 			buildSettings = {
@@ -1558,6 +1587,76 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		5111ED107673B9C963EB20CA8798FB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FFD9041EFBBAF8057D06A0E680A650A /* TempoSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TempoSDK";
+				IBSC_MODULE = TempoSDK;
+				INFOPLIST_FILE = "Target Support Files/TempoSDK/ResourceBundle-TempoSDK-TempoSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = TempoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		835610643EE3A36976D6156C552E9B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C67064590FF9ADFADF2CBFEB35132D /* TempoSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/TempoSDK/TempoSDK-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/TempoSDK/TempoSDK.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TempoSDK;
+				PRODUCT_NAME = TempoSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86B275226246767FE959E315A6F4B9B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27DD2228F9CCD83F0D9C8864BD47F15 /* Pods-tempo-levelplay-mediation-adapter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tempo-levelplay-mediation-adapter/Pods-tempo-levelplay-mediation-adapter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1687,7 +1786,7 @@
 			};
 			name = Release;
 		};
-		A4B316196CEFD7C610D7F8E2202779E0 /* Release */ = {
+		A10561F28DD9192C82DBAFF1D5195A8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0FFD9041EFBBAF8057D06A0E680A650A /* TempoSDK.release.xcconfig */;
 			buildSettings = {
@@ -1695,7 +1794,10 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/TempoSDK/TempoSDK-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULEMAP_FILE = Headers/Public/TempoSDK/TempoSDK.modulemap;
 				OTHER_LDFLAGS = "";
@@ -1707,83 +1809,48 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.6.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AEED43537BA72EDF90A17FFBABFF477F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F27DD2228F9CCD83F0D9C8864BD47F15 /* Pods-tempo-levelplay-mediation-adapter.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tempo-levelplay-mediation-adapter/Pods-tempo-levelplay-mediation-adapter.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B0DD62CFB072AE1E2C035F32C076F0C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2C67064590FF9ADFADF2CBFEB35132D /* TempoSDK.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TempoSDK/TempoSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MODULEMAP_FILE = Headers/Public/TempoSDK/TempoSDK.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TempoSDK;
-				PRODUCT_NAME = TempoSDK;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.6.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		EA35A630518E6774D2B9FFE306B18A08 /* Debug */ = {
+		AEA5EF134EC39D308386CF90BCC85E9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F8C2AE8006AB4BDD8A786B510E75137 /* tempo-ios-levelplay-mediation.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/tempo-ios-levelplay-mediation/tempo-ios-levelplay-mediation-prefix.pch";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/tempo-ios-levelplay-mediation";
+				IBSC_MODULE = tempo_ios_levelplay_mediation;
+				INFOPLIST_FILE = "Target Support Files/tempo-ios-levelplay-mediation/ResourceBundle-TempoAdapter-tempo-ios-levelplay-mediation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MODULEMAP_FILE = "Headers/Public/tempo_ios_levelplay_mediation/tempo-ios-levelplay-mediation.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = tempo_ios_levelplay_mediation;
-				PRODUCT_NAME = "tempo-ios-levelplay-mediation";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = TempoAdapter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.6.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		C00617EBD12C2C15E76380AD8B15B050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED290BD40297CA6A46BCAC4BF03E3C5D /* IronSourceSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		EB7F799359EF554BEE85C8D2EE59B446 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1795,49 +1862,6 @@
 				INFOPLIST_FILE = "Target Support Files/IronSourceSDK/ResourceBundle-IronSourcePrivacyInfo-IronSourceSDK-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = IronSourcePrivacyInfo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		F6897B9BB0DDD0FAE7D86A57F5B4F658 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC03B0CBD64600F9AB888618D7C0A5D5 /* tempo-ios-levelplay-mediation.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/tempo-ios-levelplay-mediation/tempo-ios-levelplay-mediation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MODULEMAP_FILE = "Headers/Public/tempo_ios_levelplay_mediation/tempo-ios-levelplay-mediation.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = tempo_ios_levelplay_mediation;
-				PRODUCT_NAME = "tempo-ios-levelplay-mediation";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.6.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F83DA118ECEB33494BDE15DCC8EE02EA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FFD9041EFBBAF8057D06A0E680A650A /* TempoSDK.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TempoSDK";
-				IBSC_MODULE = TempoSDK;
-				INFOPLIST_FILE = "Target Support Files/TempoSDK/ResourceBundle-TempoSDK-TempoSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = TempoSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1857,20 +1881,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		105DE3D956DBDC0D90B06D112863AA48 /* Build configuration list for PBXNativeTarget "tempo-ios-levelplay-mediation" */ = {
+		0BD07701BDBAE240A358CEC9ED11384E /* Build configuration list for PBXNativeTarget "TempoSDK-TempoSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA35A630518E6774D2B9FFE306B18A08 /* Debug */,
-				F6897B9BB0DDD0FAE7D86A57F5B4F658 /* Release */,
+				08D5AF8D56D6BDD7F74E2C037157CA7D /* Debug */,
+				5111ED107673B9C963EB20CA8798FB7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4262B27C363B2C208DC3D219B889284B /* Build configuration list for PBXNativeTarget "TempoSDK-TempoSDK" */ = {
+		1B109EE134E9B73A3F1358A5C4A92A22 /* Build configuration list for PBXNativeTarget "tempo-ios-levelplay-mediation-TempoAdapter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				714ECEC9A9687FE8190DD1DAA6DFD967 /* Debug */,
-				F83DA118ECEB33494BDE15DCC8EE02EA /* Release */,
+				AEA5EF134EC39D308386CF90BCC85E9B /* Debug */,
+				364BF5BB1F19697ADD86C0033E6910D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3505078CA20D6C8DA431DF77EE11D9FF /* Build configuration list for PBXNativeTarget "tempo-ios-levelplay-mediation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B60961CCC27703C856FBFADBE8BFB0 /* Debug */,
+				32FF72F0F7D3DC10F7C05DE20D743B08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1887,35 +1920,26 @@
 		5B626D7BB173B12B2721104053676CC6 /* Build configuration list for PBXAggregateTarget "IronSourceSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38A968EE7AEAC49565546172A384F721 /* Debug */,
-				79E55D0694E551FAD685381C3785C3D2 /* Release */,
+				065DC5CC3AB2317E6766F3F81FE26FD7 /* Debug */,
+				C00617EBD12C2C15E76380AD8B15B050 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EE1578A6908FFB4BAC376BB06E9609B /* Build configuration list for PBXNativeTarget "Pods-tempo-levelplay-mediation-adapter" */ = {
+		5E30DE910CF79894A0EFCB6F79AA7550 /* Build configuration list for PBXNativeTarget "Pods-tempo-levelplay-mediation-adapter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AEED43537BA72EDF90A17FFBABFF477F /* Debug */,
-				34B19DE95A9D30110B9476521C28085E /* Release */,
+				86B275226246767FE959E315A6F4B9B3 /* Debug */,
+				0BBAF50555EBAC1DE2469C12511C0DDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B25BC28A3E2C09BD97D5C3EEA5D828D6 /* Build configuration list for PBXNativeTarget "TempoSDK" */ = {
+		A7242014F59074FACF77EACADAE26B0F /* Build configuration list for PBXNativeTarget "TempoSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0DD62CFB072AE1E2C035F32C076F0C1 /* Debug */,
-				A4B316196CEFD7C610D7F8E2202779E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BE22B2EB9BBD5A776E6ADB644E7AF88C /* Build configuration list for PBXNativeTarget "tempo-ios-levelplay-mediation-TempoAdapter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62E2A8B20505EB2CF8752A606F11F036 /* Debug */,
-				86480664AA6FF92F229219C1ED824671 /* Release */,
+				835610643EE3A36976D6156C552E9B96 /* Debug */,
+				A10561F28DD9192C82DBAFF1D5195A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
