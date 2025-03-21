@@ -1,6 +1,6 @@
 PODS:
   - IronSourceSDK (8.7.0.0)
-  - tempo-ios-levelplay-mediation (1.1.4-rc.0):
+  - tempo-ios-levelplay-mediation (1.1.4):
     - IronSourceSDK (~> 8.7)
     - TempoSDK (= 1.8.5)
   - TempoSDK (1.8.5)
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   IronSourceSDK: 0b5a640179ef91acc637332608183a05db1757df
-  tempo-ios-levelplay-mediation: cf631957d41b1843d5e9386e7571cfa1e7b31a86
+  tempo-ios-levelplay-mediation: 83d076df9fa6e040949498315cc5cb81e557851a
   TempoSDK: d82b4eb2558ac386d862e35d2b74f9ae208ee91f
 
 PODFILE CHECKSUM: 3b0a63eb0386839076429cfd44b4eb5bfbfd5072
